@@ -1,0 +1,70 @@
+Windows PowerShell
+Traceback (most recent call last):
+TypeError: 'str' object is not callable
+>>> print(type(num))
+<class 'str'>
+>>> print(num)
+12345
+>>> num+20
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> num*3
+'123451234512345'
+>>> num1 = input("숫자입력->")
+숫자입력->67890
+>>> num+num1
+'1234567890'
+>>> type(num)
+>>> num1
+>>> type(int(num))
+<class 'int'>
+>>> num+20
+PS D:\파이썬> python .\exam01_01.py
+52   
+   52
+00052
+PS D:\파이썬> python .\exam01_01.py
++52  
+  +52
++  52
+PS D:\파이썬> python .\exam01_01.py
++52.320000    
++52.320000    
++     52.3    
+PS D:\파이썬> python .\exam01_01.py
++52.320000
+     +52.320000
++          52.3
+PS D:\파이썬> python .\exam01_01.py
+ABCDE
+abcde
+ABCDE
+PS D:\파이썬> 
+
+ 오전 11:04:52에 2022. 2. 24.에서 복원된 세션 콘텐츠 
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+새로운 크로스 플랫폼 PowerShell 사용 https://aka.ms/pscore6
+
+PS D:\파이썬> 
+
+ 오후 5:41:38에 2022. 2. 24.에서 복원된 세션 콘텐츠 
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+새로운 크로스 플랫폼 PowerShell 사용 https://aka.ms/pscore6
+
+PS D:\파이썬> 
+
+ 오후 5:45:26에 2022. 2. 24.에서 복원된 세션 콘텐츠 
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+새로운 크로스 플랫폼 PowerShell 사용 https://aka.ms/pscore6
+
+PS D:\파이썬> 
